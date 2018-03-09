@@ -1,0 +1,4 @@
+#dubbo-demo项目
+    启动的时候需要JVM添加如下选项，否则在无线网络情况下可能无法正常使用
+        -Djava.net.preferIPv4Stack=true
+
