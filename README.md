@@ -33,5 +33,5 @@ Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
 ### 免费Q群：557373922。
 
 * 项目列表，通过git tag进行管理。
-    1. hello-world: dubbo的hello world项目实例。
+    *  hello-world: dubbo的hello world项目实例。
     *  failover: 容错和负载均衡。
