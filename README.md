@@ -12,6 +12,11 @@ Java部分基础。
 ## 学习效果
 掌握Dubbo并使用与实际项目，并理解其原理。
 
+* 掌握Dubbo及原理和应用场景
+* 掌握Dubbo的开发架构
+* 掌握Dubbo和Spring Boot整合框架
+
+
 ## 课程内容
 Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
 
