@@ -20,6 +20,15 @@ Java部分基础。
 ## 课程内容
 Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
 
+* Dubbo入门
+* 提供Dubbo的开发架构
+* 提供Dubbo和Spring Boot整合框架
+    * MySql
+    * Redis
+    * RabbitMQ
+    * Mongodb
+    * ElasticSearch
+
 ## 
 ### 免费Q群：557373922。
 
