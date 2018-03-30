@@ -14,5 +14,17 @@ public class Consumer {
     String hello = demoService.sayHello("world");
     // show the result
     System.out.println(hello);
+    
+    hello = demoService.sayHello("world2");
+    // show the result
+    System.out.println(hello);
+    
+    hello = demoService.sayHello("world3");
+    // show the result
+    System.out.println(hello);
+    
+    hello = demoService.sayHello("world4");
+    // show the result
+    System.out.println(hello);
   }
 }
