@@ -34,4 +34,6 @@ Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
 
 * 项目列表，通过git tag进行管理。
     *  hello-world: dubbo的hello world项目实例。
-    *  failover: 容错和负载均衡。
+    *  failover: 容错。
+    *  loadbalance: 负载均衡。
+    *  loadbalance-failover: 负载均衡和容错。
