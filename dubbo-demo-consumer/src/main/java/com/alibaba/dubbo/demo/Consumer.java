@@ -15,16 +15,16 @@ public class Consumer {
     // show the result
     System.out.println(hello);
     
-    hello = demoService.sayHello("world2");
-    // show the result
-    System.out.println(hello);
-    
-    hello = demoService.sayHello("world3");
-    // show the result
-    System.out.println(hello);
-    
-    hello = demoService.sayHello("world4");
-    // show the result
-    System.out.println(hello);
+//    hello = demoService.sayHello("world2");
+//    // show the result
+//    System.out.println(hello);
+//    
+//    hello = demoService.sayHello("world3");
+//    // show the result
+//    System.out.println(hello);
+//    
+//    hello = demoService.sayHello("world4");
+//    // show the result
+//    System.out.println(hello);
   }
 }
