@@ -1,18 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.xianglesong</groupId>
-	<artifactId>dubbo-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-
-	<modules>
-		<module>dubbo-demo-api</module>
-		<module>dubbo-demo-provider</module>
-		<module>dubbo-demo-consumer</module>
-		<module>dubbo-demo-provider-two</module>
-		<module>dubbo-demo-consumer-spring-boot</module>
-	</modules>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.6.RELEASE</version>
+	</parent>
+	<artifactId>dubbo-demo-consumer-spring-boot</artifactId>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,6 +17,19 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<artifactId>dubbo-demo-api</artifactId>
+			<groupId>com.xianglesong</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- dubbo -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
@@ -40,13 +47,20 @@
 			<artifactId>zookeeper</artifactId>
 			<version>${org.apache.zookeeper.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.github.sgroschupf</groupId>
 			<artifactId>zkclient</artifactId>
 			<version>${com.github.sgroschupf.zkclient.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+		</dependency>
 	</dependencies>
-
 </project>

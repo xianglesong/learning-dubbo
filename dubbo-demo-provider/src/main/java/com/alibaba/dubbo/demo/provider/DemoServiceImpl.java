@@ -4,7 +4,7 @@ import com.alibaba.dubbo.demo.DemoService;
 
 public class DemoServiceImpl implements DemoService {
   public String sayHello(String name) {
-    System.out.println("say hello ");
+    System.out.println("say hello " + name);
     return "Hello " + name;
   }
 }
