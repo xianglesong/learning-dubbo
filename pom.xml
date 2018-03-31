@@ -5,7 +5,7 @@
 	<artifactId>dubbo-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<modules>
 		<module>dubbo-demo-api</module>
 		<module>dubbo-demo-provider</module>
@@ -13,11 +13,13 @@
 		<module>dubbo-demo-provider-two</module>
 	</modules>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <com.alibaba.dubbo.version>2.6.0</com.alibaba.dubbo.version>
-    </properties>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<com.alibaba.dubbo.version>2.6.0</com.alibaba.dubbo.version>
+		<org.apache.zookeeper.version>3.4.6</org.apache.zookeeper.version>
+		<com.github.sgroschupf.zkclient.version>0.1</com.github.sgroschupf.zkclient.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -31,6 +33,19 @@
 			</exclusions>
 			<version>${com.alibaba.dubbo.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.zookeeper</groupId>
+			<artifactId>zookeeper</artifactId>
+			<version>${org.apache.zookeeper.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.sgroschupf</groupId>
+			<artifactId>zkclient</artifactId>
+			<version>${com.github.sgroschupf.zkclient.version}</version>
+		</dependency>
+
 	</dependencies>
-	
+
 </project>

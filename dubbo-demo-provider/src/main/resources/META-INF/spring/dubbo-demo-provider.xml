@@ -4,7 +4,13 @@
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <dubbo:application name="demo-provider"/>
-    <dubbo:registry address="multicast://224.5.6.7:1234"/>
+  <!--   <dubbo:registry address="multicast://224.5.6.7:1234"/> -->
+    
+    <!--注册中心配置，用于配置连接注册中心相关信息。-->
+    <dubbo:registry address="zookeeper://localhost:2181" client="zkclient" file="/tmp/output/dubbo.cache"/>
+    <!--<dubbo:registry address="zookeeper://localhost:2181?backup=10.20.153.11:2181,10.20.153.12:2181" />-->
+    <!--<dubbo:registry address="zookeeper://localhost:2181" client="curator" />-->
+     
     <dubbo:protocol name="dubbo" port="20880"/>
     <dubbo:service interface="com.alibaba.dubbo.demo.DemoService" ref="demoService"/>
     <bean id="demoService" class="com.alibaba.dubbo.demo.provider.DemoServiceImpl"/>
