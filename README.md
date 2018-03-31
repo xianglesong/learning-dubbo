@@ -38,4 +38,5 @@ Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
     *  loadbalance: 负载均衡。
     *  loadbalance-failover: 负载均衡和容错。
     *  zookeeper-register: 使用zookeeper作为注册中心。
+    *  telnet: telnet测试。
     
