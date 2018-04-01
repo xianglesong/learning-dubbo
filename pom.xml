@@ -16,6 +16,7 @@
 		<module>dubbo-demo-provider-spring-boot-redis</module>
 		<module>dubbo-demo-provider-spring-rabbitmq</module>
 		<module>dubbo-demo-provider-spring-boot-mongodb</module>
+		<module>dubbo-demo-provider-spring-boot-elasticsearch</module>
 	</modules>
 
 	<properties>

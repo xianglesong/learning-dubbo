@@ -44,4 +44,5 @@ Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
     *  spring-boot-redis: 服务提供者和Spring Boot整合使用Redis。
     *  spring-boot-rabbitmq: 服务提供者和Spring Boot整合使用RabbitMQ。
     *  spring-boot-mongodb: 服务提供者和Spring Boot整合使用MongoDB。
+    *  spring-boot-elasticsearch: 服务提供者和Spring Boot整合使用Elasticsearch。
     
