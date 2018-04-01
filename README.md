@@ -42,4 +42,5 @@ Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
     *  spring-boot: 和Spring Boot整合使用。
     *  spring-boot-mysql: 服务提供者和Spring Boot整合使用MySQL。
     *  spring-boot-redis: 服务提供者和Spring Boot整合使用Redis。
+    *  spring-boot-rabbitmq: 服务提供者和Spring Boot整合使用RabbitMQ。
     
