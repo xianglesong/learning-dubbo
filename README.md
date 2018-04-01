@@ -46,3 +46,5 @@ Dubbo的基础使用，基本原理，实例架构，和Spring Boot整合等。
     *  spring-boot-mongodb: 服务提供者和Spring Boot整合使用MongoDB。
     *  spring-boot-elasticsearch: 服务提供者和Spring Boot整合使用Elasticsearch。
     
+ ### [视频课程地址：] (http://study.163.com/course/courseMain.htm?courseId=1005118047)
+    
