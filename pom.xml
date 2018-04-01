@@ -13,6 +13,7 @@
 		<module>dubbo-demo-provider-two</module>
 		<module>dubbo-demo-consumer-spring-boot</module>
 		<module>dubbo-demo-provider-spring-boot</module>
+		<module>dubbo-demo-provider-spring-boot-redis</module>
 	</modules>
 
 	<properties>
