@@ -27,7 +27,6 @@ public class ProductReceiver {
         if (message != null && message.getBody() != null) {
           String jsonString = new String(message.getBody(), "UTF-8");
           logger.info("rec : " + jsonString);
-
         }
       } catch (Exception ex) {
         logger.error("mq process excepion", ex);
