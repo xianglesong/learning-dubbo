@@ -17,6 +17,8 @@
 		<module>dubbo-demo-provider-spring-rabbitmq</module>
 		<module>dubbo-demo-provider-spring-boot-mongodb</module>
 		<module>dubbo-demo-provider-spring-boot-elasticsearch</module>
+		<module>dubbo-demo-api-multi</module>
+		<module>dubbo-demo-provider-multi</module>
 	</modules>
 
 	<properties>

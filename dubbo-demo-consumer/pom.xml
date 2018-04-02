@@ -14,6 +14,12 @@
 			<groupId>com.xianglesong</groupId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<artifactId>dubbo-demo-api-multi</artifactId>
+			<groupId>com.xianglesong</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>

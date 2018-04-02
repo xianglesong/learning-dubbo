@@ -15,4 +15,7 @@
    <!--   <dubbo:reference id="demoService" interface="com.alibaba.dubbo.demo.DemoService" loadbalance="random"/>  -->
    <!--   <dubbo:reference id="demoService" interface="com.alibaba.dubbo.demo.DemoService" loadbalance="roundrobin"/> -->
    <!--   <dubbo:reference id="demoService" interface="com.alibaba.dubbo.demo.DemoService" loadbalance="leastactive"/> -->
+   
+    <dubbo:reference id="multiService" interface="com.xianglesong.dubbo.demo.MultiService" check="true" retries="1" loadbalance="roundrobin" cluster="failfast"/>
+   
 </beans>
